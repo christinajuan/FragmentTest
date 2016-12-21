@@ -1,8 +1,12 @@
 package com.example.user.fragmenttest;
+
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTabHost;
+import android.widget.Button;
+
 public class MainActivity extends FragmentActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,7 +28,14 @@ public class MainActivity extends FragmentActivity {
                         .setIndicator("Facebook"),
                 com.example.user.fragmenttest.CFragment.class,
                 null);
+
+
     }
+
+
+
+
+
     /**************************
      *
      * 給子頁籤呼叫用
